@@ -18,7 +18,7 @@ import sys
 import urllib.request
 
 # ---- 想改提醒内容，改这里（这中间的换行会原样保留） ----
-CONTENT = """【发工资提醒】今天10号，发的是上个月的工资。
+CONTENT = """【数据更新提醒】今天10号，发的是上个月的工资。
 
 把这三个数报一下，方便更新档案：
 1) 到手工资金额
@@ -28,7 +28,7 @@ CONTENT = """【发工资提醒】今天10号，发的是上个月的工资。
 不方便拆那么细，报一个到手总额也行。
 """
 
-SUMMARY = "发工资提醒"
+SUMMARY = "数据更新提醒"
 API = "https://wxpusher.zjiecode.com/api/send/message"
 
 
